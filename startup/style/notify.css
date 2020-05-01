@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2015, 10:49:23 PM
+    Author     : SAGAR
+*/
+.wrapper{
+    width:80%;
+    margin:100px auto;
+    min-height:800px;
+}
+.mreq{
+    height:120px;
+}
+.mereq0{
+    background-color:#BDBDBD;
+    border-left: 5px #9b59b6 solid;
+}
+.mereq1{
+    background-color: #F5F5F5;
+    border-left: 5px #2ecc71 solid;
+}
+.mereq .title{
+    background-color: #F5F5F5;
+    font-size: 26pt;
+    padding: 2%;
+    font-weight:bold;
+}
+.mreq .sec1{
+    padding: 2%;
+    width:55%;
+    display:inline-block;
+    float:left;
+}
+.sec1 .projt{
+    width:100%;
+    font-size: 22pt;
+}
+.sec1 .projpos{
+    width:100%;
+    font-size: 18pt;
+}
+.mreq .butt{
+    width:40%;
+    display:inline-block;
+    float:left;
+}
+.butt .accept{
+    width:100%;
+}
+.butt .reject{
+    width:100%;
+}
+.butt .buttons{   
+    color:white;
+    height:40px;
+    font-size:16pt;
+    margin-top: 2%;
+    width: 50%;
+}
+.acc{
+    background-color:#43A047;
+}
+.rej{
+    background-color:#e53935;
+}
+.hov:hover{
+    transition: scale 0.2s ease;
+    transform: scale(0.96);
+}
+.rejreq{
+    color:#e53935;
+    font-weight:bold;
+    font-size:14pt;
+}
+.accreq{
+    color:#43A047;
+    font-weight:bold;
+    font-size:14pt;
+}
+.butt img{
+    width:100px;
+    height:100px;
+    margin-top:7px;
+}
+.unknown{
+    color:#f1c40f;
+    font-size:36pt;
+}
+.accepted{
+    color:#43A047;
+    font-size:36pt;
+}
+.rejected{
+    color:#e53935;
+    font-size:36pt;
+}
+.cleanup{
+    float:right;
+    font-size:16pt;
+    margin-top:30px;
+    cursor:pointer;
+    color:#3498db;
+}
+.mereq a{
+    text-decoration: none;
+    color:black;
+}

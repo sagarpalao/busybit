@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2015, 5:55:19 PM
+    Author     : SAGAR
+*/
+.wrapper{
+    width:80%;
+    margin:100px auto;
+}
+.title1{
+    font-size:36pt;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:2%;
+}
+.img-cover{
+    width: 80%;
+    height:500px;
+    margin: 0 auto;
+    //outline: 1px red solid;
+}
+.img-cover img{
+    width:100%;
+    height:500px;
+}
+.blurb{
+    font-size:22pt;
+    background-color:#EEEEEE;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:5%;
+    padding-bottom:5%;
+    //margin-bottom:2%;
+    color:#43A047;
+    font-weight:bold;
+    font-style:italic;
+    border-left:5px solid #3498db;
+}
+.general-content{
+    font-size:20pt;
+    padding:5% 5%;
+    background-color: #F5F5F5;
+    border-left:5px solid #9b59b6;
+}
+.general-content h3{
+    display:inline;
+}
+.general-content p{
+    display:inline;
+    padding-left: 1%;
+}
+.snerps{
+    margin-bottom: 2%;
+    padding-left: 0%;
+}
+.cards{
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+}
+.cards .c-title{
+    font-size:26pt;
+    font-weight:bold;
+    color:#311B92;
+    text-align: center;
+    margin-top:100px;
+    padding-bottom:1%;
+    padding-top: 1%;
+    background-color:#EEEEEE;
+}
+.cards .c-img{
+    width: 50%;
+    float:left;
+    display:inline;
+}
+.cards .c-img img{
+    width:100%;
+    height:430px
+}
+.cards .c-desc{
+    width: 48%;
+    font-size: 16pt;
+    float:left;
+    display:inline;
+    background-color: #F5F5F5;
+    height:405px;
+    overflow-y: scroll;
+    padding-left:2%;
+    padding-top:2%;
+}
+
+.request{
+    margin-top:3%;
+    background-color: #F5F5F5;
+    
+}
+.request h2{
+    font-size: 26pt;
+    padding: 2%;
+}
+.teamlist{
+    background-color:#EEEEEE;
+    padding: 2%;
+    border-bottom: 1px rgb(189,189,189) solid;
+}
+.teamlist1{
+    border-left:5px solid #3498db;
+}
+.teamlist2{
+    border-left:5px solid #9b59b6;
+}
+.teamlist0{
+    border-left:5px solid #e67e22;
+}
+.teamlist .postion{
+    width:50%;
+    display:inline-block;
+    font-size:20pt;
+    font-weight:bold;
+    //vertical-align: central;
+}
+.teamlist .members{
+    width:48%;
+    display:inline-block;
+}
+.teamlist .members li{
+    list-style-type: none;
+    font-size:18pt;
+}
+.teamlist a{
+    text-decoration:none;
+    color: #000000;
+}
+.bg{
+    background: url("../images/layer3.png") no-repeat;
+    top:0px;
+    left:0px;
+    position:fixed;
+    z-index:-1;
+    width:100%;
+    height:700%;
+     background-size:100%;
+}
+.bg2{
+    background: url("../images/layer4.png") 30% 0% no-repeat;
+    top:0px;
+    left:0px;
+    position:fixed;
+    z-index:-1;
+    width:100%;
+    height:700%;
+    //background-size:100%;
+}

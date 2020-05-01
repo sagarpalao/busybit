@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2015, 5:32:19 PM
+    Author     : SAGAR
+*/
+body{
+    background-color: #EEEEEE;
+}
+.wrapper{
+    width:80%;
+    margin:100px auto;
+    min-height:500px;
+}
+.head{
+    font-size:48pt;
+    margin:80px auto;
+    text-align:center;
+    padding-top:5%;
+    background: url("../images/page_cover.png") 0px 0px no-repeat;
+    background-size: 100%;
+    height:120px;
+}
+.proj{
+    margin-top:2%;
+    width:100%;
+    height:500px;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.30);
+    padding:1%;
+    background-color:white;
+}
+.proj:hover{
+    transform:scale(0.99);
+    transition:scale 0.2s ease;
+    box-shadow: 0 0px 15px rgba(0,0,0,0.30);
+}
+.title{
+    width:100%;
+    font-size:20pt;
+    overflow:hidden;
+}
+h2,h3{
+    font-weight:normal;
+}
+h3{
+    font-size:20pt;
+}
+.cover_img,.content{
+    width:48%;
+    float:left;
+    display:inline;
+}
+.cover_img img{
+    width:90%;
+    height: 400px;
+    float:right;
+    cursor:pointer;
+}
+.content{
+    padding-left:1%;
+    padding-right:1%;
+}
+.content .blurb{
+    width:100%;
+    font-size:16pt; 
+    height:120px;
+    overflow:hidden;
+    font-weight:bold;
+    color:#43A047;
+}
+.list{
+    list-style-type: disc !important;
+    padding-left:50px
+}
+.req-list{
+    line-height: 1.5em !important;
+}
+.request{
+    height:200px;
+    overflow-y:scroll;
+}
+.progress{
+    margin-top:1%;
+    width:80%;
+    //background-color: yellow;
+    display:inline;
+    float:left;
+}
+progress{
+    -webkit-appearance: none;
+    width:98%;
+}
+.likes img{
+    width:50px;
+    height:50px;
+}
+.likes .like{
+    font-weight:bold;
+    padding-left:10%;
+    font-size:16pt;
+}
+.likes{
+    margin-top:1%;
+    width:20%;
+    //background-color: red;
+    display:inline;
+    float:left;
+}

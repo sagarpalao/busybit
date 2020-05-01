@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2015, 5:58:12 PM
+    Author     : SAGAR
+*/
+@font-face {
+    font-family: myfont;
+    src: url("segoeuil.ttf");
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:myfont;
+}
+a{
+    text-decoration:none;
+}
+.container{
+        position:relative;
+        width: 100%;
+        height: 600px;
+        margin: 5% auto;
+        margin-bottom:0% !important;
+}
+.image img{
+        position:absolute;
+        width: 100%;
+        //height: 100%;
+        transition: 1s;
+        height: 600px;
+        visibility: hidden;
+}
+.left{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30%;
+        height: 600px;
+}
+.right{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30%;
+        height: 600px;
+}
+.left-img{
+        position: absolute;
+        left: 0px;
+        top: 46%;
+        width: 100px;
+        height: 100px;
+}
+.right-img{
+        position: absolute;
+        right: 0px;
+        top: 46%;
+        width: 100px;
+        height: 100px;
+}
+header{
+    position: fixed;
+    z-index: 100;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.19);
+}
+.logo{
+    width: 30%;
+    float:left;
+    display:inline;
+    font-size: 20pt;
+    font-weight:bolder;
+    //padding-top: 2%;
+    padding-left:2%;
+    //padding-bottom:0.5%;
+    color: #43A047;
+}
+.logo img{
+    width: 100px;
+    height:80px;
+    //outline:1px red solid;
+}
+.navigate{
+    font-size: 14pt;
+    width:68%;
+    float:left;
+    display:inline;
+}
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    
+    display:inline;
+    float:right;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:3%;
+     //outline: 1px red solid;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #455A64;
+}
+nav ul li a:hover, nav ul li a.active{
+    color: #43A047;
+    font-weight: bolder;
+}
+
+nav ul ul { //outline: 1px red solid ;
+            display:none; height: 40px; width:100%; position:fixed; left:0; top:66px; background:#263238; }
+nav ul ul li { float:right;  height: 40px; padding-top: 5px !important; }
+nav ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:16pt; color:white; }
+nav ul ul a:hover { color:#43A047; cursor:pointer; }
+
+nav ul #notifyimg{
+    width:40px;
+    height:40px;
+    //outline: 1px red solid;
+    position:relative;
+    top:-10px;
+}
+nav ul #profile{
+    width:50px;
+    height:50px;
+    //outline: 1px red solid;
+    position:relative;
+    top:-10px;
+    border-radius:50%;
+}
+.main-footer{
+    background-color:#263238;
+    height: 200px;
+    //outline: 1px blue solid;
+}
+footer h2{
+    text-align:left;
+    color:white;
+}
+footer .favicons{
+    
+}
+footer .comp-img{
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 40%;
+    float:left;
+    display:inline;
+    font-size: 24pt;
+    color: white;
+}
+footer .discover{
+    width: 30%;
+    float:left;
+    display:inline;
+}
+footer .discover ul{
+    list-style:none;
+}
+footer .discover ul li a{
+    text-decoration:none;
+    color:white;
+}
+footer .favicons{
+    display:inline;
+    width:28%;
+    float:left;
+    color:white;
+}
+footer .favicons ul{
+    list-style: none;
+}
+footer .favicons ul img{
+    width:40px;
+    height:40px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30);
+        border-radius:50%;
+}
+footer .favicons ul img:hover{
+    transform: scale(0.90);
+    transition: scale 0.2s ease;
+    
+}

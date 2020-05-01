@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2015, 8:38:22 PM
+    Author     : SAGAR
+*/
+.signin-form{
+    width: 60%;
+    float:left;
+    display:inline;
+    margin-top: 6%;
+    height:750px;
+    //outline :1px red solid;
+    overflow-y:scroll;
+}
+.wrapper{
+    width:100%;
+    height:850px;
+}
+.label{
+    width:40%;
+    font-size:16pt;
+    float:left;
+    display:inline;
+    padding-left:2%;
+    padding-top:2%;
+    padding-bottom:1%;
+}
+.ele{
+    width:50%;
+    font-size:16pt;
+    float:left;
+    display:inline;
+    padding-top:2%;
+    padding-bottom:1%;
+}
+input,textarea{
+    font-size:14pt;
+    width: 80%;
+    //outline:1px red solid;
+}
+input[type=checkbox]{
+    width: 10% !important;
+}
+input[type=submit]{
+    background-color:#43A047;
+    color:white;
+    height:50px;
+    font-size:20pt;
+}
+input[type=submit]:hover{
+    transition: scale 0.2s ease;
+    transform: scale(0.96);
+
+}
+textarea{
+    resize: none;
+}
+.compulsary{
+    color:red;
+}
+.container{
+    height:720px !important;
+}
+.image img{
+    height:720px !important;
+}
+.submit , .upload-btn{
+    width:50%;
+    height: 50px;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color: #43A047;
+    color:white;
+    font-size: 20pt;
+}
+.submit:hover , .upload-btn:hover{
+    transform: scale(0.98);
+    transition: scale 0.1s ease;
+}
+#prevImage{
+    width:300px;
+    height:300px;
+}
+.upload-btn{
+    font-size:16pt !important;
+}
